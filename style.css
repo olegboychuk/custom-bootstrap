@@ -1,0 +1,22 @@
+/* one side full width */
+@media (min-width:768px) {
+	#services .container {
+	  width: calc(((100% - 750px) / 2) + 750px) !important;
+	  max-width: calc(((100% - 750px) / 2) + 750px) !important;
+	  margin-right: 0;
+	}
+}
+@media (min-width:992px) {
+	#services .container {
+		width: calc(((100% - 970px) / 2) + 970px) !important;
+		max-width: calc(((100% - 970px) / 2) + 970px) !important;
+		margin-right: 0;
+	}
+}
+@media (min-width:1200px) {
+	#services .container {
+		width: calc(((100% - 1400px) / 2) + 1400px) !important;
+		max-width: calc(((100% - 1400px) / 2) + 1400px) !important;
+		margin-right: 0;
+	}
+}
